@@ -1,5 +1,8 @@
 import './index.less';
 
+import React from 'react';
+import ReactDom from 'react-dom';
+
 import echarts from 'echarts/lib/echarts';
 import 'echarts/lib/chart/candlestick';
 import 'echarts/lib/chart/line';
@@ -9,8 +12,28 @@ import 'echarts/lib/component/grid';
 import 'echarts/lib/component/dataZoom';
 import 'echarts/lib/component/axis';
 
-
 import rawData from './data';
+
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//
+//     this.state = {
+//       curProfits: '0.00',
+//       curCount: 0,
+//       oriTotalMoney: 100,
+//       curTotalMoney: 100,
+//       curItemIdx: 0,
+//       rawData: rawData
+//     }
+//   }
+//
+//   render() {
+//
+//   }
+// }
+//
+// ReactDom.render(<App />, document.getElementById('J-activity'))
 
 var calculateMA = dayCount => {
   var result = [];
@@ -55,10 +78,12 @@ var splitData = rawData => {
 var data = splitData(rawData);
 
 var option = {
+  backgroundColor: '#fff',
   grid: [
     {
       left: '10%',
       right: '8%',
+      top: '10%',
       height: '50%'
     },
     {
@@ -222,5 +247,5 @@ var option = {
   ]
 };
 
-var myChart = echarts.init(document.getElementById('J-activity'));
+var myChart = echarts.init(document.getElementById('J-main'));
 myChart.setOption(option)
