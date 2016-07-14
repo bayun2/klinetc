@@ -1,4 +1,4 @@
-// 数据意义：开盘(open)，收盘(close)，最低(lowest)，最高(highest)
+// 数据意义：开盘(open)，收盘(close)，最高(highest), 最低(lowest)
 var data = [
   {
     'categoryData': '2013/1/25',
@@ -9,7 +9,7 @@ var data = [
       2308.38
     ],
     'updown': '-28.96',
-    'updownratio': '98.75%',
+    'updownratio': '8.75%',
     'volume': '2996.57'
   },
   {
@@ -21,7 +21,7 @@ var data = [
       2346.92
     ],
     'updown': '55.2',
-    'updownratio': '102.41%',
+    'updownratio': '2.41%',
     'volume': '1172.23'
   },
   {
@@ -33,7 +33,7 @@ var data = [
       2363.8
     ],
     'updown': '12.48',
-    'updownratio': '100.53%',
+    'updownratio': '0.53%',
     'volume': '2614.75'
   },
   {
@@ -45,7 +45,7 @@ var data = [
       2383.76
     ],
     'updown': '23.50',
-    'updownratio': '101.00%',
+    'updownratio': '1.00%',
     'volume': '4417.40'
   },
   {
@@ -57,7 +57,7 @@ var data = [
       2391.82
     ],
     'updown': '2.94',
-    'updownratio': '100.12%',
+    'updownratio': '0.12%',
     'volume': '216.86'
   },
   {
@@ -69,7 +69,7 @@ var data = [
       2421.15
     ],
     'updown': '33.60',
-    'updownratio': '101.41%',
+    'updownratio': '1.41%',
     'volume': '2042.04'
   },
   {
@@ -81,7 +81,7 @@ var data = [
       2440.38
     ],
     'updown': '9.13',
-    'updownratio': '100.38%',
+    'updownratio': '0.38%',
     'volume': '1006.25'
   },
   {
@@ -93,7 +93,7 @@ var data = [
       2437.42
     ],
     'updown': '4.98',
-    'updownratio': '100.21%',
+    'updownratio': '0.21%',
     'volume': '1416.39'
   },
   {
@@ -105,7 +105,7 @@ var data = [
       2441.73
     ],
     'updown': '1.35',
-    'updownratio': '100.06%',
+    'updownratio': '0.06%',
     'volume': '3596.38'
   },
   {
@@ -117,7 +117,7 @@ var data = [
       2433.89
     ],
     'updown': '-15.95',
-    'updownratio': '99.34%',
+    'updownratio': '9.34%',
     'volume': '1532.75'
   },
   {
@@ -129,7 +129,7 @@ var data = [
       2443.03
     ],
     'updown': '13.87',
-    'updownratio': '100.57%',
+    'updownratio': '0.57%',
     'volume': '1583.65'
   },
   {
@@ -141,7 +141,7 @@ var data = [
       2444.8
     ],
     'updown': '-10.84',
-    'updownratio': '99.55%',
+    'updownratio': '9.55%',
     'volume': '4625.78'
   },
   {
@@ -153,7 +153,7 @@ var data = [
       2427.07
     ],
     'updown': '-38.65',
-    'updownratio': '98.40%',
+    'updownratio': '8.40%',
     'volume': '4390.87'
   },
   {
@@ -165,7 +165,7 @@ var data = [
       2397.94
     ],
     'updown': '14.27',
-    'updownratio': '100.60%',
+    'updownratio': '0.60%',
     'volume': '4863.99'
   },
   {
@@ -177,7 +177,7 @@ var data = [
       2378.82
     ],
     'updown': '-71.23',
-    'updownratio': '97.03%',
+    'updownratio': '7.03%',
     'volume': '2996.28'
   },
   {
@@ -189,7 +189,7 @@ var data = [
       2330.88
     ],
     'updown': '-11.79',
-    'updownratio': '99.49%',
+    'updownratio': '9.49%',
     'volume': '4219.31'
   },
   {
@@ -201,7 +201,7 @@ var data = [
       2338.78
     ],
     'updown': '11.66',
-    'updownratio': '100.50%',
+    'updownratio': '0.50%',
     'volume': '713.10'
   },
   {
@@ -213,7 +213,7 @@ var data = [
       2340.71
     ],
     'updown': '-32.48',
-    'updownratio': '98.60%',
+    'updownratio': '8.60%',
     'volume': '4815.50'
   },
   {
@@ -225,7 +225,7 @@ var data = [
       2324.63
     ],
     'updown': '19.88',
-    'updownratio': '100.87%',
+    'updownratio': '0.87%',
     'volume': '4015.58'
   },
   {
@@ -237,7 +237,7 @@ var data = [
       2366.16
     ],
     'updown': '52.37',
-    'updownratio': '102.26%',
+    'updownratio': '2.26%',
     'volume': '1357.51'
   },
   {
@@ -249,7 +249,7 @@ var data = [
       2369.65
     ],
     'updown': '-6.08',
-    'updownratio': '99.74%',
+    'updownratio': '9.74%',
     'volume': '1602.68'
   },
   {
@@ -261,7 +261,7 @@ var data = [
       2333.54
     ],
     'updown': '-86.11',
-    'updownratio': '96.35%',
+    'updownratio': '6.35%',
     'volume': '1043.61'
   },
   {
@@ -273,7 +273,7 @@ var data = [
       2328.14
     ],
     'updown': '52.91',
-    'updownratio': '102.33%',
+    'updownratio': '2.33%',
     'volume': '333.64'
   },
   {
@@ -285,7 +285,7 @@ var data = [
       2351.44
     ],
     'updown': '20.87',
-    'updownratio': '100.90%',
+    'updownratio': '0.90%',
     'volume': '4231.24'
   },
   {
@@ -297,7 +297,7 @@ var data = [
       2352.02
     ],
     'updown': '-22.89',
-    'updownratio': '99.02%',
+    'updownratio': '9.02%',
     'volume': '2052.01'
   },
   {
@@ -309,7 +309,7 @@ var data = [
       2333.67
     ],
     'updown': '-5.68',
-    'updownratio': '99.76%',
+    'updownratio': '9.76%',
     'volume': '3202.22'
   },
   {
@@ -321,7 +321,7 @@ var data = [
       2320.96
     ],
     'updown': '-8.02',
-    'updownratio': '99.65%',
+    'updownratio': '9.65%',
     'volume': '549.98'
   },
   {
@@ -333,7 +333,7 @@ var data = [
       2333.29
     ],
     'updown': '-23.99',
-    'updownratio': '98.96%',
+    'updownratio': '8.96%',
     'volume': '2673.57'
   },
   {
@@ -345,7 +345,7 @@ var data = [
       2286.33
     ],
     'updown': '-22.63',
-    'updownratio': '99.01%',
+    'updownratio': '9.01%',
     'volume': '3218.68'
   },
   {
@@ -357,7 +357,7 @@ var data = [
       2276.22
     ],
     'updown': '6.31',
-    'updownratio': '100.28%',
+    'updownratio': '0.28%',
     'volume': '638.15'
   },
   {
@@ -369,7 +369,7 @@ var data = [
       2312.08
     ],
     'updown': '8.12',
-    'updownratio': '100.36%',
+    'updownratio': '0.36%',
     'volume': '3324.72'
   },
   {
@@ -381,7 +381,7 @@ var data = [
       2276.05
     ],
     'updown': '-38.38',
-    'updownratio': '98.32%',
+    'updownratio': '8.32%',
     'volume': '2185.17'
   },
   {
@@ -393,7 +393,7 @@ var data = [
       2261.31
     ],
     'updown': '17.41',
-    'updownratio': '100.78%',
+    'updownratio': '0.78%',
     'volume': '1901.87'
   },
   {
@@ -405,7 +405,7 @@ var data = [
       2317.86
     ],
     'updown': '59.94',
-    'updownratio': '102.66%',
+    'updownratio': '2.66%',
     'volume': '192.72'
   },
   {
@@ -417,7 +417,7 @@ var data = [
       2330.81
     ],
     'updown': '6.87',
-    'updownratio': '100.30%',
+    'updownratio': '0.30%',
     'volume': '3097.49'
   },
   {
@@ -429,7 +429,7 @@ var data = [
       2332
     ],
     'updown': '4.04',
-    'updownratio': '100.17%',
+    'updownratio': '0.17%',
     'volume': '3778.72'
   },
   {
@@ -441,7 +441,7 @@ var data = [
       2344.89
     ],
     'updown': '-1.56',
-    'updownratio': '99.93%',
+    'updownratio': '9.93%',
     'volume': '4980.31'
   },
   {
@@ -453,7 +453,7 @@ var data = [
       2319.99
     ],
     'updown': '-29.05',
-    'updownratio': '98.75%',
+    'updownratio': '8.75%',
     'volume': '4075.67'
   },
   {
@@ -465,7 +465,7 @@ var data = [
       2323.48
     ],
     'updown': '3.59',
-    'updownratio': '100.16%',
+    'updownratio': '0.16%',
     'volume': '3344.35'
   },
   {
@@ -477,7 +477,7 @@ var data = [
       2273.55
     ],
     'updown': '-64.96',
-    'updownratio': '97.18%',
+    'updownratio': '7.18%',
     'volume': '2885.61'
   },
   {
@@ -489,7 +489,7 @@ var data = [
       2246.87
     ],
     'updown': '0.32',
-    'updownratio': '100.01%',
+    'updownratio': '0.01%',
     'volume': '636.97'
   },
   {
@@ -501,7 +501,7 @@ var data = [
       2243.95
     ],
     'updown': '-2.22',
-    'updownratio': '99.90%',
+    'updownratio': '9.90%',
     'volume': '1091.23'
   },
   {
@@ -513,7 +513,7 @@ var data = [
       2253.42
     ],
     'updown': '-6.66',
-    'updownratio': '99.70%',
+    'updownratio': '9.70%',
     'volume': '2042.14'
   },
   {
@@ -525,7 +525,7 @@ var data = [
       2241.34
     ],
     'updown': '-2.45',
-    'updownratio': '99.89%',
+    'updownratio': '9.89%',
     'volume': '768.63'
   },
   {
@@ -537,7 +537,7 @@ var data = [
       2212.59
     ],
     'updown': '-13.70',
-    'updownratio': '99.38%',
+    'updownratio': '9.38%',
     'volume': '916.39'
   },
   {
@@ -549,7 +549,7 @@ var data = [
       2234.73
     ],
     'updown': '14.18',
-    'updownratio': '100.64%',
+    'updownratio': '0.64%',
     'volume': '4059.91'
   },
   {
@@ -561,7 +561,7 @@ var data = [
       2233.04
     ],
     'updown': '0.36',
-    'updownratio': '100.02%',
+    'updownratio': '0.02%',
     'volume': '3804.98'
   },
   {
@@ -573,7 +573,7 @@ var data = [
       2242.48
     ],
     'updown': '-6.58',
-    'updownratio': '99.70%',
+    'updownratio': '9.70%',
     'volume': '800.89'
   },
   {
@@ -585,7 +585,7 @@ var data = [
       2226.26
     ],
     'updown': '-12.77',
-    'updownratio': '99.42%',
+    'updownratio': '9.42%',
     'volume': '1246.50'
   },
   {
@@ -597,7 +597,7 @@ var data = [
       2204.99
     ],
     'updown': '-24.84',
-    'updownratio': '98.87%',
+    'updownratio': '8.87%',
     'volume': '2280.93'
   },
   {
@@ -609,7 +609,7 @@ var data = [
       2196.43
     ],
     'updown': '12.91',
-    'updownratio': '100.59%',
+    'updownratio': '0.59%',
     'volume': '2343.33'
   },
   {
@@ -621,7 +621,7 @@ var data = [
       2197.51
     ],
     'updown': '-1.05',
-    'updownratio': '99.95%',
+    'updownratio': '9.95%',
     'volume': '4408.45'
   },
   {
@@ -633,7 +633,7 @@ var data = [
       2206.03
     ],
     'updown': '3.8',
-    'updownratio': '100.17%',
+    'updownratio': '0.17%',
     'volume': '4444.95'
   },
   {
@@ -645,7 +645,7 @@ var data = [
       2250.11
     ],
     'updown': '47.04',
-    'updownratio': '102.14%',
+    'updownratio': '2.14%',
     'volume': '2568.10'
   },
   {
@@ -657,7 +657,7 @@ var data = [
       2245.12
     ],
     'updown': '-2.47',
-    'updownratio': '99.89%',
+    'updownratio': '9.89%',
     'volume': '896.72'
   },
   {
@@ -669,7 +669,7 @@ var data = [
       2242.62
     ],
     'updown': '-57.63',
-    'updownratio': '97.43%',
+    'updownratio': '7.43%',
     'volume': '2301.15'
   },
   {
@@ -681,7 +681,7 @@ var data = [
       2226.12
     ],
     'updown': '33.78',
-    'updownratio': '101.55%',
+    'updownratio': '1.55%',
     'volume': '3988.94'
   },
   {
@@ -693,7 +693,7 @@ var data = [
       2224.63
     ],
     'updown': '-19.01',
-    'updownratio': '99.14%',
+    'updownratio': '9.14%',
     'volume': '2459.50'
   },
   {
@@ -705,7 +705,7 @@ var data = [
       2210.58
     ],
     'updown': '-21.40',
-    'updownratio': '99.03%',
+    'updownratio': '9.03%',
     'volume': '3845.91'
   },
   {
@@ -717,7 +717,7 @@ var data = [
       2179.65
     ],
     'updown': '-3.79',
-    'updownratio': '99.83%',
+    'updownratio': '9.83%',
     'volume': '4959.30'
   },
   {
@@ -729,7 +729,7 @@ var data = [
       2222.81
     ],
     'updown': '31.38',
-    'updownratio': '101.44%',
+    'updownratio': '1.44%',
     'volume': '3816.04'
   },
   {
@@ -741,7 +741,7 @@ var data = [
       2236.07
     ],
     'updown': '25.67',
-    'updownratio': '101.16%',
+    'updownratio': '1.16%',
     'volume': '1249.34'
   },
   {
@@ -753,7 +753,7 @@ var data = [
       2240.26
     ],
     'updown': '4.40',
-    'updownratio': '100.20%',
+    'updownratio': '0.20%',
     'volume': '4364.72'
   },
   {
@@ -765,7 +765,7 @@ var data = [
       2255.21
     ],
     'updown': '10.73',
-    'updownratio': '100.48%',
+    'updownratio': '0.48%',
     'volume': '4551.14'
   },
   {
@@ -777,7 +777,7 @@ var data = [
       2247.86
     ],
     'updown': '-13.33',
-    'updownratio': '99.41%',
+    'updownratio': '9.41%',
     'volume': '4819.15'
   },
   {
@@ -789,7 +789,7 @@ var data = [
       2247.67
     ],
     'updown': '13.86',
-    'updownratio': '100.62%',
+    'updownratio': '0.62%',
     'volume': '2041.58'
   },
   {
@@ -801,7 +801,7 @@ var data = [
       2250.85
     ],
     'updown': '-4.91',
-    'updownratio': '99.78%',
+    'updownratio': '9.78%',
     'volume': '1777.47'
   },
   {
@@ -813,7 +813,7 @@ var data = [
       2239.93
     ],
     'updown': '-24.91',
-    'updownratio': '98.89%',
+    'updownratio': '8.89%',
     'volume': '4364.83'
   },
   {
@@ -825,7 +825,7 @@ var data = [
       2225.19
     ],
     'updown': '7.79',
-    'updownratio': '100.35%',
+    'updownratio': '0.35%',
     'volume': '247.84'
   },
   {
@@ -837,7 +837,7 @@ var data = [
       2252.87
     ],
     'updown': '27.01',
-    'updownratio': '101.21%',
+    'updownratio': '1.21%',
     'volume': '3385.05'
   },
   {
@@ -849,7 +849,7 @@ var data = [
       2288.09
     ],
     'updown': '31.06',
-    'updownratio': '101.38%',
+    'updownratio': '1.38%',
     'volume': '942.13'
   },
   {
@@ -861,7 +861,7 @@ var data = [
       2309.39
     ],
     'updown': '17.12',
-    'updownratio': '100.75%',
+    'updownratio': '0.75%',
     'volume': '4481.63'
   },
   {
@@ -873,7 +873,7 @@ var data = [
       2305.3
     ],
     'updown': '5.12',
-    'updownratio': '100.22%',
+    'updownratio': '0.22%',
     'volume': '1596.24'
   },
   {
@@ -885,7 +885,7 @@ var data = [
       2314.18
     ],
     'updown': '-2.71',
-    'updownratio': '99.88%',
+    'updownratio': '9.88%',
     'volume': '688.18'
   },
   {
@@ -897,7 +897,7 @@ var data = [
       2304.95
     ],
     'updown': '-26.73',
-    'updownratio': '98.84%',
+    'updownratio': '8.84%',
     'volume': '4047.06'
   },
   {
@@ -909,7 +909,7 @@ var data = [
       2292.59
     ],
     'updown': '12.86',
-    'updownratio': '100.57%',
+    'updownratio': '0.57%',
     'volume': '4271.81'
   },
   {
@@ -921,7 +921,7 @@ var data = [
       2301.7
     ],
     'updown': '4.55',
-    'updownratio': '100.20%',
+    'updownratio': '0.20%',
     'volume': '3344.91'
   },
   {
@@ -933,7 +933,7 @@ var data = [
       2322.1
     ],
     'updown': '28.24',
-    'updownratio': '101.23%',
+    'updownratio': '1.23%',
     'volume': '1474.70'
   },
   {
@@ -945,7 +945,7 @@ var data = [
       2334.33
     ],
     'updown': '2.70',
-    'updownratio': '100.12%',
+    'updownratio': '0.12%',
     'volume': '1140.88'
   },
   {
@@ -957,7 +957,7 @@ var data = [
       2325.72
     ],
     'updown': '-6.27',
-    'updownratio': '99.73%',
+    'updownratio': '9.73%',
     'volume': '2750.29'
   },
   {
@@ -969,7 +969,7 @@ var data = [
       2325.53
     ],
     'updown': '-17.16',
-    'updownratio': '99.26%',
+    'updownratio': '9.26%',
     'volume': '124.50'
   },
   {
@@ -981,7 +981,7 @@ var data = [
       2313.43
     ],
     'updown': '-1.34',
-    'updownratio': '99.94%',
+    'updownratio': '9.94%',
     'volume': '398.70'
   },
   {
@@ -993,7 +993,7 @@ var data = [
       2297.1
     ],
     'updown': '-26.83',
-    'updownratio': '98.83%',
+    'updownratio': '8.83%',
     'volume': '4270.13'
   },
   {
@@ -1005,7 +1005,7 @@ var data = [
       2276.86
     ],
     'updown': '-1.49',
-    'updownratio': '99.93%',
+    'updownratio': '9.93%',
     'volume': '1288.18'
   },
   {
@@ -1017,7 +1017,7 @@ var data = [
       2266.69
     ],
     'updown': '-28.82',
-    'updownratio': '98.73%',
+    'updownratio': '8.73%',
     'volume': '1571.77'
   },
   {
@@ -1029,7 +1029,7 @@ var data = [
       2250.63
     ],
     'updown': '-31.21',
-    'updownratio': '98.61%',
+    'updownratio': '8.61%',
     'volume': '1260.40'
   },
   {
@@ -1041,7 +1041,7 @@ var data = [
       2190.1
     ],
     'updown': '-62.55',
-    'updownratio': '97.17%',
+    'updownratio': '7.17%',
     'volume': '2656.95'
   }
 ];
