@@ -55,13 +55,13 @@ class UserOperate extends React.Component {
     return fixed;
   }
 
-
+  // 不要保留小数，不然计算会出现较大偏差
   getCurCount(totalMoney, buyClosePrice) {
-    return this.floatDiv(totalMoney, buyClosePrice);
+    return totalMoney/buyClosePrice;
   }
 
   getCurTotalMoeny(curCount, sellClosePrice) {
-    return this.floatMul(curCount, sellClosePrice);
+    return this.floatTo(this.floatMul(curCount, sellClosePrice), 2);
   }
 
   calProfits(data) {
@@ -73,6 +73,7 @@ class UserOperate extends React.Component {
       curAction: data.curAction,
       curTotalMoeny: curTotalMoney,
       curProfits: curProfits,
+      curIndex: data.curIndex+1,
       curRound: data.curRound+1,
       buyClosePrice: data.buyClosePrice
     });
@@ -86,15 +87,17 @@ class UserOperate extends React.Component {
     if (curAction === 'look' || curAction === 'sell') {
       this.props.userAction({
         curAction: 'look',
-        curRound: this.props.curRound+1,
+        curIndex: this.props.curIndex+1,
+        curRound: this.props.curRound+1
       });
     } else { // buy, keep
       let data = {
         curAction: curAction,
+        curIndex: this.props.curIndex,
         curRound: this.props.curRound,
         curTotalMoney: this.props.curTotalMoney,
-        buyClosePrice: this.props.rawData[this.props.curRound].series[1],
-        sellClosePrice: this.props.rawData[this.props.curRound+1].series[1]
+        buyClosePrice: this.props.rawData[this.props.curIndex].series[1],
+        sellClosePrice: this.props.rawData[this.props.curIndex+1].series[1]
       }
       if (curAction === 'keep') {
         data.buyClosePrice = this.props.buyClosePrice;
@@ -165,6 +168,7 @@ UserOperate.defaultProps = {};
 UserOperate.propTypes = {
   buyClosePrice: React.PropTypes.number,
   curAction: React.PropTypes.string,
+  curIndex: React.PropTypes.number,
   curRound: React.PropTypes.number,
   curTotalMoney: React.PropTypes.number,
   oriTotalMoney: React.PropTypes.number,

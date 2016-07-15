@@ -18,6 +18,7 @@ class App extends React.Component {
       curAction: 'look',
       curProfits: '0.00',
       curRound: 0,
+      curIndex: 40,
       oriTotalMoney: 100,
       curTotalMoney: 100,
       buyClosePrice: 0,
@@ -41,14 +42,14 @@ class App extends React.Component {
     this.rawData = rawData;
     this.data = this.splitData(this.rawData);
     this.setState({
-      curItem: this.rawData[0]
+      curItem: this.rawData[1]
     })
   }
 
   userAction(changeState) {
     changeState.startValue = this.state.startValue + 1;
     changeState.endValue = this.state.endValue + 1;
-    changeState.curItem = this.rawData[changeState.curRound];
+    changeState.curItem = this.rawData[changeState.curIndex];
     if (this.state.myChart) {
       this.setState(changeState);
       this.state.myChart.dispatchAction({
@@ -95,13 +96,15 @@ class App extends React.Component {
         <div>
           <IncomeInfo
             curItem={this.state.curItem}
-            curProfits={this.state.curProfits} />
+            curProfits={this.state.curProfits}
+            preClosePrice={this.rawData[this.state.curIndex-1]['series'][1]} />
           <Main
             data={this.data}
             initMyChart={this.initMyChart} />
           <UserOperate
             buyClosePrice={this.state.buyClosePrice}
             curAction={this.state.curAction}
+            curIndex={this.state.curIndex}
             curRound={this.state.curRound}
             curTotalMoney={this.state.curTotalMoney}
             oriTotalMoney={this.state.oriTotalMoney}

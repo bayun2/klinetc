@@ -29,7 +29,7 @@ class UserOperate extends React.Component {
         {
           left: '10%',
           right: '8%',
-          bottom: '10%',
+          bottom: '0%',
           height: '16%'
         }
       ],
