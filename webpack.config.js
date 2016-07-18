@@ -15,8 +15,8 @@ module.exports = {
     publicPath: '/dist/'
   },
   externals:{
-    'zepto':'Zepto',
-    'flipsnap':'Flipsnap'
+    'react':'React',
+    'react-dom':'ReactDOM'
   },
   resolve: {
     modulesDirectories: ['node_modules', './src'],
