@@ -1,7 +1,5 @@
 import React from 'react';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-
-injectTapEventPlugin();
+import Tappable from 'react-tappable/lib/Tappable';
 
 class UserOperate extends React.Component {
   constructor(props) {
@@ -111,33 +109,33 @@ class UserOperate extends React.Component {
       case 'look':
       case 'sell':
         return {
-          first: <a className="buy btn" onTouchTap={() => {
+          first: <Tappable className="buy btn" onTap={() => {
             this.userAction('buy')
-          }}>买入</a>,
-          last: <a className="keep btn" onTouchTap={() => {
+          }}>买入</Tappable>,
+          last: <Tappable className="keep btn" onTap={() => {
             this.userAction('look')
-          }}>观望</a>
+          }}>观望</Tappable>
         };
         break;
       case 'buy':
       case 'keep':
         return {
-          first: <a className="buy btn" onTouchTap={() => {
+          first: <Tappable className="buy btn" onTap={() => {
             this.userAction('keep')
-          }}>持股</a>,
-          last: <a className="keep btn" onTouchTap={() => {
+          }}>持股</Tappable>,
+          last: <Tappable className="keep btn" onTap={() => {
             this.userAction('sell')
-          }}>卖出</a>
+          }}>卖出</Tappable>
         };
         break;
       default:
         return {
-          first: <a className="buy btn" onTouchTap={() => {
+          first: <Tappable className="buy btn" onTap={() => {
             this.userAction('buy')
-          }}>买入</a>,
-          last: <a className="keep btn" onTouchTap={() => {
+          }}>买入</Tappable>,
+          last: <Tappable className="keep btn" onTap={() => {
             this.userAction('look')
-          }}>观望</a>
+          }}>观望</Tappable>
         };
     }
   }

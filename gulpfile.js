@@ -80,7 +80,7 @@ gulp.task('dev', cb => {
   });
   const app = express();
   let config = objectAssign({}, wpConfig, {
-    devtool: 'cheap-module-source-map',
+    devtool: 'eval',
     plugins: [
       new webpack.NoErrorsPlugin(),
       new ExtractTextPlugin('index.css')
