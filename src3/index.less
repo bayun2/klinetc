@@ -1,0 +1,72 @@
+body {
+  background-color: #fff;
+}
+.m-activity {
+  .red {
+    color: #c12e34;
+  }
+  .green {
+    color: #2b821d;
+  }
+  .income-info {
+    font-size: 14px;
+    padding: 8px 5px 5px 5px;
+    background-color: #f3f0f0;
+    .profit {
+      margin-right: 15px;
+      text-align: center;
+    }
+    div {
+      overflow: hidden;
+      white-space: nowrap;
+      line-height: 22px;
+    }
+  }
+  .main {
+    width: 100%;
+    height:400px;
+  }
+  .user-operate {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 40px 0 20px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    .btn {
+      display: inline-block;
+      padding: 5px 24px;
+      border-radius: 7px;
+      line-height: 1.5;
+      font-size: 20px;
+      color: #fff;
+
+    }
+    .buy {
+      background-color: #e93030;
+    }
+    .keep {
+      background-color: #5eace8;
+    }
+    .round {
+      position: relative;
+      top: -8px;
+      background: #8d8d8d;
+      width: 55px;
+      line-height: 28px;
+      border-radius: 50%;
+      color: #fff;
+      margin: 0 auto;
+      div {
+        &:first-child {
+          position: relative;
+          bottom: -5px;
+        }
+        &:nth-child(2) {
+          position: relative;
+          top: -4px;
+        }
+      }
+    }
+  }
+}
